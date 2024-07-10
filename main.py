@@ -21,6 +21,8 @@ import os
 # # Update the visitor counter
 # visitor_count = update_counter()
 
+st.set_page_config(page_title="MyTaxAppSG", page_icon=":moneybag:")
+
 # Updated tax brackets and rates from YA 2024 onwards
 tax_brackets = [
     (20000, 0.02, 0),
