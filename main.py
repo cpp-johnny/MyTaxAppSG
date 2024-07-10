@@ -69,7 +69,7 @@ def calculate_income_tax(chargeable_income):
     return tax
 
 # Streamlit app
-st.title("myTaxAppSG")
+st.title("MyTaxAppSG")
 
 st.header("Income Details")
 employment_income = st.number_input("Enter your employment income (SGD):", min_value=0)
